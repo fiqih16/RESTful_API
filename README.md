@@ -9,7 +9,7 @@
 |  `GET`  | /users  | Get all user data when logged in    |
 | `POST`  | /users | Register account must given `name`,`email`,`password` & `confPassword` to body request |
 | `POST`  | /login | login account must given `email` & `password` to body request |
-|  `GET`  |/token   | Get refresh token   |
 | `DELETE`  | /logout | Logout  |
+|  `GET`  |/token   | Get refresh token   |
 |  `GET` | /portofolio  | Get all portofolio   |
 | `GET`  | /portofolio/{id} | Get specific portofolio by giver `id`  |
