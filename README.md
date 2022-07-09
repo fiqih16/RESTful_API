@@ -1,3 +1,6 @@
+# About
+RESTful_API projects based Express js, Example of implementation for creating a personal website and mobile app backend.
+
 ## How to Run 
 - Open cmd and cd your project root directory
 - Run `npm init`
