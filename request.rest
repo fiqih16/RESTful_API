@@ -1,0 +1,50 @@
+GET http://localhost:5000/users
+Authorization: Bearer 
+
+### REGISTER
+POST http://localhost:5000/users
+Content-Type: application/json
+
+{
+    "name": "User",
+    "email": "useradmin2@gmail.com",
+    "password": "useradmin",
+    "confPassword": "useradmin"
+}
+
+### LOGIN
+POST http://localhost:5000/login
+Content-Type: application/json
+
+{
+    "email": "useradmin@gmail.com",
+    "password": "useradmin"
+}
+
+### REFRESH TOKEN
+GET http://localhost:5000/token
+
+### LOGOUT
+DELETE http://localhost:5000/logout
+
+// PORTOFOLIO
+### GET PORTOFOLIO
+GET http://localhost:5000/portofolio
+Authorization: Bearer 
+
+### GET PORTOFOLIO BY ID
+GET http://localhost:5000/portofolio/1
+Authorization: Bearer 
+
+### POST PORTOFOLIO
+POST http://localhost:5000/portofolio
+content-type: application/json
+
+{
+    "name": "Portfolio",
+    "description": "Portfolio",
+    "category": "Web",
+    "link": "https://www.google.com",
+    "file": "foto.jpg"
+}
+// 34:33
