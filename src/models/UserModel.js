@@ -18,6 +18,9 @@ const Users = db.define(
     refresh_token: {
       type: DataTypes.TEXT,
     },
+    image: {
+      type: DataTypes.STRING,
+    },
   },
   {
     freezeTableName: true,
@@ -25,3 +28,8 @@ const Users = db.define(
 );
 
 export default Users;
+
+// Migration Users Table
+// (async () => {
+//   await Users.sync();
+// })();
